@@ -8,6 +8,7 @@ def assign_rooms(array)
   speaker_rooms = []
   array.each do |room|
     speaker_rooms.push
+    "Hello, #{(name)}! You'll be assigned to room #{room}"
 end
 def printer ()
     puts batch_badge_creator
